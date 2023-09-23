@@ -79,6 +79,7 @@ ul {
 }
 
 button {
+    height: fit-content;
     background-color: #3882F6;
     border: none;
     align-content: center;
@@ -159,6 +160,28 @@ button {
     padding-right: 35px;
 }
 
-.call-to-action-background{
+.call-to-action-background {
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action{
+    box-sizing: border-box;
     background-color: #3882F6;
+    padding: 50px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: 50vw;
+}
+
+button.call-to-action-sign-up {
+    border: 2px solid white;
+}
+
+.call-to-action-title {
+    font-size: 24px;
 }

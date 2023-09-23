@@ -19,6 +19,7 @@ body {
 
 .logo, .hero-title, button {
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .header-link {

@@ -32,11 +32,15 @@ body {
     align-items: center;
 }
 
-.header {
+.header, .hero {
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    min-width: 80vw;
+    width: 50vw;
+}
+
+.header {
+    margin-bottom: 70px;
 }
 
 .header-links {
@@ -52,6 +56,20 @@ ul {
     font-size: 18px;
 }
 
+.hero {
+    gap: 40px;
+    margin-bottom: 120px;
+}
+
+.image-placeholder {
+    width: 52vw;
+    background-color: #6D747D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
 .hero-title {
     font-size: 48px;
 }
@@ -63,6 +81,14 @@ ul {
 button {
     background-color: #3882F6;
     border: none;
+    align-content: center;
+    font-size: 18px;
+    padding: 8px 35px;
+    border-radius: 8px;
+}
+
+.hero-sign-up {
+    margin-top: 15px;
 }
 
 .information-title {

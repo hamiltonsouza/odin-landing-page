@@ -131,8 +131,18 @@ button {
     margin-bottom: 10px;
 }
 
-.quote {
+.quote-background {
     background-color: #E5E7EB;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 41vw;
 }
 
 .quote-text {
@@ -145,6 +155,8 @@ button {
 .quote-credit {
     font-size: 24px;
     font-weight: bold;
+    align-self: flex-end;
+    padding-right: 35px;
 }
 
 .call-to-action-background{

@@ -1,0 +1,1 @@
+In this project I'm creating an entire webpage from a design provided by The Odin Project Foundations Course.

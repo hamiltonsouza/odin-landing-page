@@ -185,3 +185,11 @@ button.call-to-action-sign-up {
 .call-to-action-title {
     font-size: 24px;
 }
+
+.footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}

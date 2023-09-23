@@ -9,16 +9,31 @@ body {
     font-family: 'Roboto';
 }
 
-.header {
+.header, .hero {
     background-color: #1F2937;
 }
 
 .logo {
     font-size: 24px;
+}
+
+.logo, .hero-title, button {
     color: #F9FAF8;
 }
 
 .header-link {
     font-size: 18px;
-    color: #E5E7EB
+}
+
+.hero-title {
+    font-size: 48px;
+}
+
+.header-link, .hero-subtext {
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
 }

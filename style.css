@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
 * {
     margin: 0;
@@ -47,4 +47,20 @@ button {
 
 .information-subtext {
     color: #666;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-credit {
+    font-size: 24px;
+    font-weight: bold;
 }

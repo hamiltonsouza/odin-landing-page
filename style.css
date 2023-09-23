@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
 }
 
-.header, .hero, .footer {
+.header-and-hero, .footer {
     background-color: #1F2937;
 }
 
@@ -24,6 +24,28 @@ body {
 .logo, .hero-title, button, .call-to-action-title {
     color: #F9FAF8;
     font-weight: bold;
+}
+
+.header-and-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 80vw;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+ul {
+    list-style: none;
 }
 
 .header-link {
